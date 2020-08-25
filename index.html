@@ -15,7 +15,13 @@
       <label for="name" id="name-label">Name</label>
       <input id="name" type="text" placeholder="Enter name" required />
       <label for="email" id="email-label">Email</label>
-      <input type="email" name="email" id="email" required="" placeholder="Enter Email" />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        required=""
+        placeholder="Enter Email"
+      />
       <label for="number" id="number-label">Number</label>
       <input
         type="number"
@@ -26,12 +32,57 @@
         placeholder="Enter Number"
       />
       <select id="dropdown">
-        <option >Student</option>
+        <option>Student</option>
         <option>Full Time Job</option>
         <option>Project</option>
         <option>Community</option>
         <option>Open Source</option>
       </select>
+
+      <h1>What would you like to learn</h1>
+
+      <input type="radio" id="FrontEnd" name="programs" value="FrontEnd" />
+      <label for="FrontEnd">FrontEnd</label><br />
+      <input type="radio" id="BackEnd" name="programs" value="BackEnd" />
+      <label for="BackEnd">BackEnd</label><br />
+      <input type="radio" id="FullStack" name="programs" value="FullStack" />
+      <label for="FullStack">FullStack</label><br />
+      <input
+        type="radio"
+        id="Gamification"
+        name="programs"
+        value="Gamification"
+      />
+      <label for="Gamification">Gamification</label><br />
+      <input
+        type="radio"
+        id="User Experience"
+        name="programs"
+        value="User Experience"
+      />
+      <label for="User Experience">User Experience</label>
+
+      <h1>Why are you interested in this program?</h1>
+      <input type="checkbox" name="Reason1" id="Reason1" value="Skill" />
+      <label for="Reason1">To Learn new skills</label><br />
+      <input type="checkbox" name="Reason2" id="Reason2" value="promotion" />
+      <label for="Reason2">To gain promotion at workplace</label><br />
+      <input
+        type="checkbox"
+        name="Reason3"
+        id="Reason3"
+        value="Career Deavelopment"
+      />
+      <label for="Reason3">To pursue a career in IT</label><br />
+      <input
+        type="checkbox"
+        name="Reason4"
+        id="Reason4"
+        value="Portfolio building"
+      />
+      <label for="Reason4">To build my portfolio</label><br />
+      <input type="checkbox" name="Reason5" id="Reason5" value="networking" />
+      <label for="Reason5">To stretch my professional network</label>
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
