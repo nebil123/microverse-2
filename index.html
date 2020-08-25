@@ -12,10 +12,11 @@
       Help us to improve our services by checking out this form
     </p>
     <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
       <input id="name" type="text" placeholder="Enter name" required />
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" required />
-      <label for="number">Number</label>
+      <label for="email" id="email-label">Email</label>
+      <input type="email" name="email" id="email" required="" placeholder="Enter Email" />
+      <label for="number" id="number-label">Number</label>
       <input
         type="number"
         name="number"
@@ -24,6 +25,13 @@
         max="13"
         placeholder="Enter Number"
       />
+      <select id="dropdown">
+        <option >Student</option>
+        <option>Full Time Job</option>
+        <option>Project</option>
+        <option>Community</option>
+        <option>Open Source</option>
+      </select>
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
