@@ -12,7 +12,7 @@ body {
     width: 70%;
    
 }
-.input, select, textarea, label, h1{
+.input, select, textarea, label, h1, footer{
     color: white;
 }
 .input{
