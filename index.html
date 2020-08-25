@@ -8,14 +8,22 @@
 
   <body>
     <h1 id="title">Nebil & Chike Survey Form</h1>
-    <p>Help us to improve our services by checking out this form</p>
+    <p id="description">
+      Help us to improve our services by checking out this form
+    </p>
     <form id="survey-form">
-      <input id="name" type="text" placeholder="Enter name" />
+      <input id="name" type="text" placeholder="Enter name" required />
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" />
+      <input type="email" name="email" id="email" required />
       <label for="number">Number</label>
-      <input type="number" name="number" id="number" placeholder="Enter Number"/>
-
+      <input
+        type="number"
+        name="number"
+        id="number"
+        min="11"
+        max="13"
+        placeholder="Enter Number"
+      />
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
